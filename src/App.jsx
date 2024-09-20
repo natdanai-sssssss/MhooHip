@@ -4,7 +4,7 @@ export default function App() {
   const [level, setLevel] = useState(0);
   const [imageIndex, setImageIndex] = useState(0);
   const images = ["https://static.thairath.co.th/media/PZnhTOtr5D3rd9odAf9nj2tTWFFT1cWdLouErBGIZUBaMOY.webp", "https://news.thaipbs.or.th/media/TSNBg3wSBdng7ijMhT0ud4HrQYofJjOtBcGTSqqeocy.jpg"];
-  const buttonImages = ["https://media.istockphoto.com/id/184276818/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B9%81%E0%B8%AD%E0%B8%9B%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%A5%E0%B9%81%E0%B8%94%E0%B8%87.jpg?s=612x612&w=0&k=20&c=GV53zmGQRQaOAOEtYZAVIZfX0sM49I6sjUVtQcLDeIg=", 
+  const buttonImages = ["https://static.thairath.co.th/media/dFQROr7oWzulq5FZYRqLHc26B1fREB2PtcFAFBC9U4FcG2Sg5sZvdKtjORkCGP4BgcR.jpg", 
     "https://fit-d.com/image_webp/f?src=./uploads/food/5f6c8c69a8f190b979f93f02475aac80.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Wassermelone.jpg/1200px-Wassermelone.jpg"];
 
   const increaseLevel = (increment) => {
